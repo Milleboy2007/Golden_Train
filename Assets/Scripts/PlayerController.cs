@@ -56,6 +56,10 @@ public class PlayerController : MonoBehaviour
         direction = Vector3.ClampMagnitude(directionRelative, 1f);
 
         if(Input.GetButtonDown("Jump") && estAuSol) veutSauter = true;
+        if(Input.GetKeyDown(KeyCode.Q)) animationPlayerScript.JouerPunch();
+
+        if(Input.GetButtonDown("Fire2")) animationPlayerScript.SwitchAim(true);
+        if(Input.GetButtonUp("Fire2")) animationPlayerScript.SwitchAim(false);
     }
 
     private void FixedUpdate()

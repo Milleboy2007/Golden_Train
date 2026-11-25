@@ -61,4 +61,9 @@ public class AnimationPlayer : MonoBehaviour
     {
         animator.SetTrigger(ParametreJump);
     }
+
+    public void SwitchAim(bool newState)
+    {
+        animator.SetBool(ParametreIsAiming, newState);
+    }
 }
