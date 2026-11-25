@@ -61,7 +61,7 @@ PrefabInstance:
       addedObject: {fileID: 4052189602025833309}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7788d6279f9ec364b82f3cf40b2f1e22, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1306401606034812872}
+      addedObject: {fileID: -4821561917566095563}
   m_SourcePrefab: {fileID: 100100000, guid: 7788d6279f9ec364b82f3cf40b2f1e22, type: 3}
 --- !u!1 &760605924993939931 stripped
 GameObject:
@@ -91,30 +91,16 @@ CapsuleCollider:
   m_Height: 0.6364547
   m_Direction: 1
   m_Center: {x: -0.0044817924, y: 0.044704735, z: 0.014946938}
---- !u!54 &1306401606034812872
-Rigidbody:
+--- !u!114 &-4821561917566095563
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 760605924993939931}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bff1928dd813d4bb88fb2d668cda35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MedBottle
+  valeur: 1
