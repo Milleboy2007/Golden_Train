@@ -59,6 +59,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7788d6279f9ec364b82f3cf40b2f1e22, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4052189602025833309}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7788d6279f9ec364b82f3cf40b2f1e22, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4591856407223187292}
   m_SourcePrefab: {fileID: 100100000, guid: 7788d6279f9ec364b82f3cf40b2f1e22, type: 3}
 --- !u!1 &760605924993939931 stripped
 GameObject:
@@ -88,3 +91,16 @@ CapsuleCollider:
   m_Height: 0.6364547
   m_Direction: 1
   m_Center: {x: -0.0044817924, y: 0.044704735, z: 0.014946938}
+--- !u!114 &-4591856407223187292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760605924993939931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fab589e4a4f3e142aaf5a61b72a356b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MedBottle
+  valeur: 1
