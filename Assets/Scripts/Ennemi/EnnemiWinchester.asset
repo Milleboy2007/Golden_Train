@@ -19,4 +19,3 @@ MonoBehaviour:
   cooldownAttaque: 1.5
   distanceDetection: 10
   fireRange: 10
-  test: 100

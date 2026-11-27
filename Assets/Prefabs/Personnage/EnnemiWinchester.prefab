@@ -8,21 +8,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2096626939500918968, guid: cb02497fbba4a7047b4e9d5443b46cf7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 5204e19af33183e49b0815a3c999590b, type: 2}
     - target: {fileID: 4662152982806853752, guid: cb02497fbba4a7047b4e9d5443b46cf7, type: 3}
       propertyPath: m_Name
       value: EnnemiWinchester
       objectReference: {fileID: 0}
     - target: {fileID: 5474296610333303490, guid: cb02497fbba4a7047b4e9d5443b46cf7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 117.00255
       objectReference: {fileID: 0}
     - target: {fileID: 5474296610333303490, guid: cb02497fbba4a7047b4e9d5443b46cf7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.0000034570694
       objectReference: {fileID: 0}
     - target: {fileID: 5474296610333303490, guid: cb02497fbba4a7047b4e9d5443b46cf7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 127.01011
       objectReference: {fileID: 0}
     - target: {fileID: 5474296610333303490, guid: cb02497fbba4a7047b4e9d5443b46cf7, type: 3}
       propertyPath: m_LocalRotation.w
