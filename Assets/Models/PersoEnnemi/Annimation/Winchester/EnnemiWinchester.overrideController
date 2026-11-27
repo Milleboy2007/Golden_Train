@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EnnemiWinchester
+  m_Controller: {fileID: 9100000, guid: b8c865ac6312fd24fa0a55cfbd64e738, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: a3b8a6ea27985b449952352810f3705a, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 83cd628919127634585ca6b015edd932, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 88dc980a0b304e443b92b94a02297eee, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 83cd628919127634585ca6b015edd932, type: 3}
