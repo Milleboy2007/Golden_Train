@@ -4,18 +4,18 @@ public class Ammobox : MonoBehaviour
 {
     [SerializeField] private int valeur = 1;
 
-    private void OnTriggerEnter2D(Collider2D autre)
+    private void OnTriggerEnter(Collider autre)
     {
         if (!autre.CompareTag("Player"))
             return;
 
-        if (ItemManager.Instance == null)
+        if (InventoryManager.Instance == null)
         {
-            Debug.LogError("ItemManager isn't present.");
+            Debug.LogError("InventoryManager isn't present.");
             return;
         }
 
-        ItemManager.Instance.AddAmmo(valeur);
+        InventoryManager.Instance.AddAmmo(valeur);
         Destroy(gameObject);
     }
 }

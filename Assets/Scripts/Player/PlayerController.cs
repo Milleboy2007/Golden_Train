@@ -60,6 +60,8 @@ public class PlayerController : MonoBehaviour
 
         if(Input.GetButtonDown("Fire2")) animationPlayerScript.SwitchAim(true);
         if(Input.GetButtonUp("Fire2")) animationPlayerScript.SwitchAim(false);
+
+        UseItem();
     }
 
     private void FixedUpdate()
@@ -78,5 +80,15 @@ public class PlayerController : MonoBehaviour
         
         Quaternion cible = Quaternion.LookRotation(direction, Vector3.up);
         corps.MoveRotation(Quaternion.Slerp(corps.rotation, cible, vitesseRotation * Time.fixedDeltaTime));
+    }
+    private void UseItem()
+    {
+        if (Input.GetKeyDown("e"))
+            InventoryManager.Instance.UseHealthBottle();
+        if (Input.GetKeyDown("f"))
+            GetComponent<PlayerHealth>().TakeDamage(25);
+
+        if (Input.GetMouseButtonDown(0))
+            InventoryManager.Instance.UseAmmo();
     }
 }

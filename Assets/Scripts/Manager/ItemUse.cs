@@ -12,9 +12,9 @@ public class ItemUse : MonoBehaviour
     private void UseItem()
     {
         if (Input.GetKeyDown("e"))
-            ItemManager.Instance.UseHealthBottle();
+            InventoryManager.Instance.UseHealthBottle();
 
         if (Input.GetMouseButtonDown(0))
-            ItemManager.Instance.UseAmmo();
+            InventoryManager.Instance.UseAmmo();
     }
 }
