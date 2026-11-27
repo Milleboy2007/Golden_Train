@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 1420322c9b3d3f44ab553492d7f6b36a
+=======
+guid: 21428c7c98f07224ebcb7017a3176ff1
+>>>>>>> c942062 (Avancement trains)
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000

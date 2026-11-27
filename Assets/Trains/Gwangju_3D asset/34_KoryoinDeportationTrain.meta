@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 28b08ca0d9e75ff448293b033c435dd0
+=======
+guid: 510d02c85046f7344bffd2cce5933814
+>>>>>>> c942062 (Avancement trains)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

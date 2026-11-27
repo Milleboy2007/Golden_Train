@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 815782e867b8e2847a4e6d4defa6b7b0
+=======
+guid: bbfc9d45644d08c4fa4aed868d618186
+>>>>>>> c942062 (Avancement trains)
 ModelImporter:
   serializedVersion: 22103
   internalIDToNameTable: []

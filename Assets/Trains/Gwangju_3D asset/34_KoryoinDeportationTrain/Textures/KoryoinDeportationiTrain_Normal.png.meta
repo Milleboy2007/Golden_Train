@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 57174baeb340dfd4da69af9c46411263
+=======
+guid: 8cc0c4ae24ec13547afd921a39309e35
+>>>>>>> c942062 (Avancement trains)
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
