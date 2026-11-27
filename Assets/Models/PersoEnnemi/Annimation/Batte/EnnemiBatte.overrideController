@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EnnemiBatte
+  m_Controller: {fileID: 9100000, guid: b8c865ac6312fd24fa0a55cfbd64e738, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 88dc980a0b304e443b92b94a02297eee, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 721b0f7f8ef76ce4b8f0fc7c65048461, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: a3b8a6ea27985b449952352810f3705a, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 206f7144df5518c44b41c0defd461585, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: d4095ead0fcab6f4498ce091e470fab4, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: f1f946bbf0b7e834b917af826ce0af91, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 6a7607d136e2f714aba63838815b55a5, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 39db171e784e75a4097fe1dda8b4457f, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: c041b62cd387aa44c8714991debf06d8, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 721b0f7f8ef76ce4b8f0fc7c65048461, type: 3}
